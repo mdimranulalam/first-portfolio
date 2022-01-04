@@ -1,10 +1,17 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
+/* Common CSS */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 body{
     font-family: 'Poppins', sans-serif;
-
+    margin: 0;
+    
 }
+
+/* Header Section */
 h1{
     font-size: 50px;
 }
@@ -17,7 +24,10 @@ h1{
 
 .container{
     display: flex;
-    
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .half-width{
     width: 50%;
