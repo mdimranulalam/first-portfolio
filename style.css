@@ -1,19 +1,19 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* Common CSS */
-/* *{
-    margin: 0;
-    padding: 0;
-} */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     
 }
 
+
 /* Header Section */
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
 }
 .orange-color{
     color: orange;
@@ -26,8 +26,10 @@ h1{
 }
 
 .container{
-    display: flex;
     padding-bottom: 100px;
+}
+.flexible-container{
+    display: flex;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -49,4 +51,17 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.third-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.box-shadow{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 40px gray;
 }
