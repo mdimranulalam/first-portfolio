@@ -12,10 +12,22 @@ h1{
     color: orange;
 }
 .display-image{
-    width: 400px;
+    width: 80%;
 }
 
 .container{
     display: flex;
     
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 5px;
 }
