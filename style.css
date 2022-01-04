@@ -18,12 +18,16 @@ h1{
 .orange-color{
     color: orange;
 }
+.description{
+    padding-bottom: 30px;
+}
 .display-image{
     width: 80%;
 }
 
 .container{
     display: flex;
+    padding-bottom: 100px;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -40,4 +44,9 @@ h1{
     font-weight: bold;
     padding: 10px 40px;
     border-radius: 5px;
+}
+.second-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
