@@ -77,7 +77,7 @@ h2{
 
 .web-des-exp{
     border-left: 7px solid;
-    border-image: linear-gradient(rgb(224, 117, 117), rgb(173, 130, 38));
+    border-image: linear-gradient(rgb(224, 117, 117), rgb(173, 130, 38));;
     border-image-slice: 1;
 }
 
@@ -85,5 +85,4 @@ h2{
 footer p{
     text-align: center;
     font-size: 17px;
-    
 }
